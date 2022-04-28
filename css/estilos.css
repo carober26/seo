@@ -1,0 +1,26 @@
+footer ul {
+  margin-top: 3rem;
+  gap: 2rem; }
+  footer ul img {
+    height: 20px; }
+
+footer li {
+  list-style-type: none; }
+
+.footer_list_items {
+  display: flex;
+  gap: 10rem; }
+
+.icon_size {
+  height: 20px;
+  margin-top: 3rem; }
+
+.td_calendar {
+  font-weight: lighter;
+  float: left;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  font-weight: lighter;
+  height: 111px;
+  width: 60px;
+  border: 1px solid rgba(0, 0, 0, 0.125); }
