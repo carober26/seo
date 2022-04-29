@@ -1,3 +1,19 @@
+/*maps*/
+.btn--instagram {
+  background-color: black; }
+
+.btn--facebook {
+  background-color: green; }
+
+.estilo4 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 24px;
+  font-family: "arial"; }
+
+.icon {
+  background-color: black; }
+
 footer ul {
   margin-top: 3rem;
   gap: 2rem; }
@@ -7,11 +23,11 @@ footer ul {
 footer li {
   list-style-type: none; }
 
-.footer_list_items {
+footer .footer_list_items {
   display: flex;
   gap: 10rem; }
 
-.icon_size {
+footer .icon_size, footer .icon {
   height: 20px;
   margin-top: 3rem; }
 
@@ -23,4 +39,4 @@ footer li {
   font-weight: lighter;
   height: 111px;
   width: 60px;
-  border: 1px solid rgba(0, 0, 0, 0.125); }
+  border: 1px solid black; }

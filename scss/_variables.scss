@@ -1,2 +1,37 @@
-$borders: border 1px solid rgba(0,0,0,.125);
-$iconheight: height 20px
+$borders: 1px solid black;
+$iconheight:  40px;
+$background-color: whitesmoke;
+
+/*maps*/
+$redes: (
+    instagram: black, 
+    facebook: green
+    );
+@each $red, $color in $redes {
+    .btn--#{$red}{
+        background-color:$color;
+    }
+}
+
+$estilos:(
+    color: $background-color,
+    centro:center,
+    fuente: 24px,
+    
+);
+
+$estilos2: (
+    fuente: "arial"
+);
+
+.estilo4 {
+    color: map-get($estilos,color);
+    text-align: map-get($estilos,centro);
+    font-size: map-get($estilos,fuente);
+    font-family: map-get($estilos2,fuente);
+}
+
+.icon {
+    @extend .icon_size;
+    background-color: black;
+}
